@@ -8,15 +8,15 @@
     <Version>0.0.1</Version>
     <Authors>DCoats</Authors>
     <Copyright>Copyright (c) Functionairy 2025</Copyright>
-    <Description>Logging library.</Description>
+    <Description>Leaf sub-library for the F10Y.L0035 project.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryUrl>https://github.com/Functionairy/F10Y.L0035.git</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\F10Y.T0015\source\F10Y.T0015\F10Y.T0015.csproj" />
-    <ProjectReference Include="..\F10Y.L0035.L000\F10Y.L0035.L000.csproj" />
-    <ProjectReference Include="..\..\..\F10Y.L0001\source\F10Y.L0001.X000\F10Y.L0001.X000.csproj" />
-    <ProjectReference Include="..\..\..\F10Y.T0016\source\F10Y.T0016\F10Y.T0016.csproj" />
+    <ProjectReference Include="..\..\..\F10Y.L0000\source\F10Y.L0000\F10Y.L0000.csproj" />
+    <ProjectReference Include="..\..\..\F10Y.NG0009\source\F10Y.NG0009\F10Y.NG0009.csproj" />
+    <ProjectReference Include="..\..\..\F10Y.T0004\source\F10Y.T0004\F10Y.T0004.csproj" />
+    <ProjectReference Include="..\..\..\F10Y.L0003\source\F10Y.L0003\F10Y.L0003.csproj" />
   </ItemGroup>
 </Project>
