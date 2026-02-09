@@ -29,6 +29,9 @@ namespace F10Y.L0035
                 var logFilePath = await fileLoggerProvider.LogFilePathProvider.Get_LogFilePath();
 
                 fileLoggerProvider.Writer = Instances.StreamWriterOperator.New_Write(logFilePath);
+
+                // Ensure write immediately writes its content.
+                fileLoggerProvider.Writer.AutoFlush = true;
             });
         }
 
